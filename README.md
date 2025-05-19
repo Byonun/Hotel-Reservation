@@ -36,7 +36,7 @@ Sebuah website reservasi hotel berbasis Laravel yang dibuat sebagai bagian dari 
    #DB_PASSWORD=
 
 4. Atau import file SQL yang ada di folder:
-   /database/hotel.sql
+   database/hotel.sql
 
 5. Jalankan:
    - php artisan migrate
