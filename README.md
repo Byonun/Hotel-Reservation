@@ -36,7 +36,7 @@ Sebuah website reservasi hotel berbasis Laravel yang dibuat sebagai bagian dari 
    #DB_PASSWORD=
 
 4. Atau import import database menggunakan file SQL berikut:
-   https://raw.githubusercontent.com/Byonun/Hotel-Reservation/main/database/hotel.sql
+   👉 [Download hotel.sql](https://github.com/Byonun/Hotel-Reservation/raw/main/database/hotel.sql)
    
 6. Jalankan:
    - php artisan migrate
