@@ -30,10 +30,10 @@ Sebuah website reservasi hotel berbasis Laravel yang dibuat sebagai bagian dari 
    - composer install
    - cp .env.example .env
    - php artisan key:generate
-3. Buat database, misalnya hotel, lalu sesuaikan file .env;
-   #DB_DATABASE=hotel
-   #DB_USERNAME=root
-   #DB_PASSWORD=
+3. Buat database, misalnya hotel, lalu sesuaikan file .env:
+   # DB_DATABASE=hotel
+   # DB_USERNAME=root
+   # DB_PASSWORD=
 
 4. Atau import import database menggunakan file SQL berikut:
    👉 [Download hotel.sql](https://github.com/Byonun/Hotel-Reservation/raw/main/database/hotel.sql)
