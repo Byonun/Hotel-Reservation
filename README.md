@@ -35,10 +35,10 @@ Sebuah website reservasi hotel berbasis Laravel yang dibuat sebagai bagian dari 
    #DB_USERNAME=root
    #DB_PASSWORD=
 
-4. Atau import file SQL yang ada di folder:
-   database/hotel.sql
-
-5. Jalankan:
+4. Atau import import database menggunakan file SQL berikut:
+   👉 Download hotel.sql
+   
+6. Jalankan:
    - php artisan migrate
    - php artisan serve
 
