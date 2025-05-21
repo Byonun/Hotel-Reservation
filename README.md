@@ -26,7 +26,7 @@ Sebuah website reservasi hotel berbasis Laravel yang dibuat sebagai bagian dari 
 1. Clone repository ini:
    ```bash
    git clone https://github.com/USERNAME/Hotel-Reservation.git
-2. Jalankan perintah ini di terminal:
+2. Install depedency Laravel:
    - composer install
    - cp .env.example .env
    - php artisan key:generate
@@ -34,12 +34,11 @@ Sebuah website reservasi hotel berbasis Laravel yang dibuat sebagai bagian dari 
    # DB_DATABASE=hotel
    # DB_USERNAME=root
    # DB_PASSWORD=
-
 4. Atau import import database menggunakan file SQL berikut:
    👉 [Download hotel.sql](https://github.com/Byonun/Hotel-Reservation/raw/main/database/hotel.sql)
-   
-6. Jalankan:
+5. Atau jalankan:
    - php artisan migrate
+6. Jalankan project:
    - php artisan serve
 
 📸 Tampilan
@@ -52,4 +51,5 @@ Sebuah website reservasi hotel berbasis Laravel yang dibuat sebagai bagian dari 
 ![Room Data](https://github.com/user-attachments/assets/820c6a56-230a-4c20-9647-2eceac01d53e)
 
 ![Booked Data](https://github.com/user-attachments/assets/49cb0b2a-f550-4990-b4cf-af23b392ae2a)
+
 
